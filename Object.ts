@@ -30,3 +30,18 @@ let showFruitName = () => {
 };
 
 (a) => a + 1;
+
+// function expression
+let x = function (x, y) {
+  return x * y;
+};
+
+// using arrow functions
+let y = (x, y) => x * y;
+
+const getSum = (x, y) => x + y;
+
+
+getSum(10,11)
+
+
